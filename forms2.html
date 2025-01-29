@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+<body>
+    <h1>Formulario sencillo</h1>
+    <form action="/registrar-cliente/" name="registro" method="get" autocomplete="off">
+        Nombre
+        <input type="text" name="nombre" placeholder="Tu nombre" required minlength="5" maxlength="10"><br />
+        Apellido
+        <input type="text" name="apellido" placeholder="Tu apellido" required minlength="5" maxlength="10"><br />
+        Edad
+        <input type="number" name="edad" placeholder="Tu edad" required min="18" max="99"><br />
+        <button>Enviar</button>
+    </form>
+</body>
+</html>
