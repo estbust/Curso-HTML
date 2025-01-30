@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Select example</title>
+</head>
+<body>
+    <h1>Select example</h1>
+    <form action="/select-example" method="get">
+        <label for="size">Selecciona tu talla:</label><br>
+        <select name="size" id="size" required>
+            <option value="">-</option>
+            <option value="XS">Talla XS</option>
+            <option value="S">Talla S</option>
+            <option value="M">Talla M</option>
+            <option value="L">Talla L</option>
+            <option value="XL">Talla XL</option>
+        </select>
+        <br><br>
+        <input type="submit" value="Submit">
+    </form>
+</body>
+</html>
