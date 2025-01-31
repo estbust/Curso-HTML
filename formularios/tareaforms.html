@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Practica forms 2</title>
+</head>
+<body>
+    <h1>Formulario estructurado</h1>
+    <form action="">
+        <fieldset>
+            <legend>Información personal</legend>
+            <label for="nombre">Nombre</label><br>
+            <input type="text" name="nombre" id="nombre" required>
+            <br><br>
+            <label for="apellido">Apellidos</label><br>
+            <input type="text" name="apellido" id="apellido" required>
+            <br><br>
+            <label for="id">DNI</label><br>
+            <input type="text" name="id" id="id" maxlength="9" size="9" required>
+            <br><br>
+        </fieldset>
+
+        <fieldset>
+            <legend>Datos de conexión</legend>
+            <label for="username">Nombre de usuario</label><br>
+            <input type="text" name="email" id="email" required>
+            <br><br>
+            <label for="password">Contraseña</label><br>
+            <input type="password" name="password1" id="password1" required>
+            <br><br>
+            <label for="password">Repite la contraseña</label><br>
+            <input type="password" name="password2" id="password2" required>
+            <br><br>
+
+            <button>Enviar</button>
+
+    </form>
+</body>
+</html>

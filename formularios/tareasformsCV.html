@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rellena tu CV</title>
+</head>
+<body>
+    <h1>Rellena tu CV</h1>
+    <form action="">
+        <fieldset>
+            <legend>Datos personales</legend>
+            <label for="provincia">Provincia</label><br>
+            <select name="provincia" id="provincia">
+                <option value="">-selecciona-</option>
+                <option value="alava">Álava</option>
+                <option value="albacete">Albacete</option>
+                <option value="alicante">Alicante</option>
+                <option value="almeria">Almería</option>
+                <option value="avila">Ávila</option>
+                <option value="badajoz">Badajoz</option>
+            </select>
+            <br><br>
+            <label for="DOB">Fecha de nacimiento</label><br>
+            <input type="number" name="day" size="2" min="1" max="31" required>
+            <label for="year">de</label>
+            <select name="month" id="month">
+                <option value="jan">Enero</option>
+                <option value="feb">Febrero</option>
+                <option value="mar">Marzo</option>
+                <option value="apr">Abril</option>
+                <option value="may">Mayo</option>
+                <option value="jun">Junio</option>
+                <option value="jul">Julio</option>
+                <option value="aug">Agosto</option>
+                <option value="sep">Septiembre</option>
+                <option value="oct">Octubre</option>
+                <option value="nov">Noviembre</option>
+                <option value="dec">Diciembre</option>
+            </select>
+            <label for="year">de</label>
+            <input type="number" name="year" id="birth-year" maxlength="4" size="4" min="1900" max="2100" required>
+            <br><br>
+            <label for="topics">Temas de interés</label><br>
+            <select name="topics" id="topics" size="6" multiple>
+                <option value="web">Desarrollo web</option>
+                <option value="movil">Desarrollo móvil</option>
+                <option value="desktop">Desarrollo de escritorio</option>
+                <option value="bd">Bases de datos</option>
+                <option value="redes">Redes</option>
+                <option value="seguridad">Seguridad informática</option>
+            </select>
+            <br><br>
+            <button>Enviar</button>
+        </fieldset>
+    </form>
+</body>
+</html>
